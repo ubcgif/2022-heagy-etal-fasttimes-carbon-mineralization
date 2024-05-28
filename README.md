@@ -1,75 +1,28 @@
-# Template repository for papers by the GIF group
+# Geophysical inversions to delineate rocks with CO2 sequestration potential through carbon mineralization 
 
-Please use this repository as a template for papers
+_Lindsey J. Heagy, Thibaut Astic, Joseph Capriotti, John Weis and Douglas W. Oldenburg_
 
-## Repository name
+https://doi.org/10.48550/arXiv.2203.13894
 
-The naming convention should follow 
-
-```
-year-authors-journal-short-title
-```
-
-As an example for two authors: 
-```
-2023-heagy-oldenburg-gji-casing-permeability
-```
-
-if there are more than 2 authors, you can use `etal` to indicate multiple authors, e.g. 
-```
-2024-heagy-etal-tle-future-of-applied-geophysics
-```
-
-## Contents
-
-The paper should be put in a `paper` folder. You can put the original latex there. The published pdf from the journal should also be included here. 
-
-Please also include a `thumbnail.png`. This should be a high-impact figure from the paper. 
-
-## MyST.md
-
-The key file that you will need to update is the `myst.yml` file which is located in the `paper` folder. You will need to fill out the fields that are currently commented out. 
-
-The project id should follow the pattern `ubcgif-YEAR-AUTHORS-JOURNAL`, e.g. `ubcgif-2023-heagy-oldenburg-gji` or `2024-heagy-etal-tle`
-
-Descriptions of the fields is available here: https://mystmd.org/guide/frontmatter#available-frontmatter-fields
-
-## Previewing the site
-
-You can preview the build using MyST. Please have MyST installed ([instructions](https://mystmd.org/guide/installing)). From the `paper` folder, you can then run 
-
-```
-myst start
-```
-
-and a preview will launch, usually from `http://localhost:3000`
-
-Also, whenever you create a pull-request to the repo, curvenote will build you a preview 🚀. A link will be added to the comment thread that looks something like this 
-
-![image](https://github.com/ubcgif/template-repository-paper/assets/6361812/b7a144c5-8458-474b-98c4-9e5890ac859e)
-
-
-## README 
-Please use the following as a template for the 
-```
-# Template repository for papers
-
-_Authors_
-
-[https://doi.org/XXX](https://doi.org/XXX)
-
-![thumbnail](./paper/thumbnail.png)
+![estimated volume](./paper/thumbnail.png)
 
 ## Summary
 
-Summary of the paper here (pulled from abstract/summary of paper) 
+In addition to reducing anthropogenic emissions of CO$_2$, it is increasingly clear we also need to remove CO$_2$ from the atmosphere in order to avoid some of the worst case scenarios for climate change. Geologic sequestration of CO$_2$ is among the most attractive approaches because of the large global capacity and long-time scales for storage. One mechanism of geologic storage is through carbon mineralization. Some mafic and ultramafic rocks contain minerals that will react with CO$_2$ in a carbonation reaction and convert it to carbonated minerals. This is effectively a permanent CO$_2$ storage mechanism. The geologic question we are faced with is then to locate, delineate and estimate the volume of potentially reactive rocks. Using a synthetic model that emulates a prospective site for carbon mineralization in British Columbia, we simulate and invert gravity and magnetic data to delineate reactive rocks. We begin by inverting each data set independently and introduce a proxy experiment to contend with the challenging problem of choosing an appropriate physical-property threshold to estimate volumes from the recovered model. We use this proxy experiment to estimate thresholds for standard, $\ell_2$ inversion of the gravity and magnetics, as well as for inversions which use sparse and compact norms. A Petrophysically and Geologically Guided Inversion (PGI) framework is used to construct quasi-geologic models from which volumes can be estimated directly. We apply the PGI framework to the magnetics and gravity data independently. The framework is also used to jointly invert these data and produce a model that is consistent with both data sets. Cumulative volume estimates with depth are informative and can help decide whether in situ or ex situ sequestration might be appropriate. Using each of the inverted models, we estimate cumulative volume of reactive rock as a function of depth. 
 
 ## Citation
 
-Please include the formatted citation along with bibtex for the reference
+Fasttimes. (2022, June 4). Geophysical Inversions to Delineate Rocks with CO2 Sequestration Potential Through Carbon Mineralization. FastTIMES Online. https://fasttimesonline.co/geophysical-inversions-to-delineate-rocks-with-co-2-sequestration-potential-through-carbon-mineralization/
 
 ```
+@article{heagy_inversion_2022,
+      title={Geophysical inversions to delineate rocks with CO$_2$ sequestration potential through carbon 
+      mineralization}, 
+      author={Lindsey J. Heagy and Thibaut Astic and Joseph Capriotti and John Weis and Douglas W. Oldenburg},
+      year={2022},
+      eprint={2203.13894},
+      archivePrefix={arXiv},
+      primaryClass={physics.geo-ph}
+}
 
-## Examples
-- https://github.com/ubcgif/2023-heagy-oldenburg-gji-casing-permeability
-- https://github.com/ubcgif/2024-heagy-etal-tle-future-of-applied-geophysics
+```
