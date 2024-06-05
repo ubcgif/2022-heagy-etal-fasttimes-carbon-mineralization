@@ -47,8 +47,10 @@ project:
     # - KEYWORD 3
     # - KEYWORD 4
   abbreviations:
-    # CSEM: controlled source electromagnetics
-    # EM: electromagnetics
+    EM: electromagnetics
+    LOI:  Loss On Ignition
+    PGI: Petrophysically and Geologically Guided Inversion
+    GMM: Gaussian Mixture Model
   thumbnail: thumbnail.png
   numbering:
     headings: true
