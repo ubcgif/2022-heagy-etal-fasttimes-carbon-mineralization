@@ -2,34 +2,45 @@
 version: 1
 project:
   id: ubcgif-2022-heagy-etal-fasttimes
-  # title: TITLE OF PAPER
-  # description: SHORT DESCRIPTION HERE
+  title: Geophysical Inversions to Delineate Rocks with CO2 Sequestration Potential Through Carbon Mineralization
+  description: Identifying some of the opportunities and areas of future research for the use of geophysical data for carbon mineralization.
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0002-1551-5926
+      affiliation:
+        id: ubc
+        name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
+    - name: Thibaut Astic
+      email: tastic@eoas.ubc.ca
+      orcid: 0000-0003-1237-6315
+      affiliation: ubc
+    - name: Joseph Capriotti
+      email: jcapriot@eoas.ubc.ca
+      orcid: 0000-0003-4762-5377
+      affiliation: ubc
+    - name: John Weis
+      email: jweis@eoas.ubc.ca
     #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-  # doi: DOI
-  # arxiv: ARXIV
-  # github: GITHUB-URL
-  # date: YYYY/MM/DD # date of publication
-  # license: CC-BY-4.0  # uncomment this and the line below if open access
-  # open_access: true
+      affiliation: ubc
+    - name: Doulas W. Oldenburg
+      email: doug@eos.ubc.ca
+      orcid: 0000-0002-4327-2124
+      affiliation: ubc
+  doi: https://fasttimesonline.co/geophysical-inversions-to-delineate-rocks-with-co-2-sequestration-potential-through-carbon-mineralization/
+  arxiv: 2203.13894
+  github:  https://github.com/simpeg-research/Fast-Times-2021-Carbon-Mineralization
+  date: 2022/01/20 # date of publication
+  license: CC-BY-4.0  # uncomment this and the line below if open access
+  open_access: true
   venue:
-    # title: JOURNAL NAME
-    # url: JOURNAL URL
+    title: Fast Times
+    url: https://fasttimesonline.co/geophysical-inversions-to-delineate-rocks-with-co-2-sequestration-potential-through-carbon-mineralization/
   history:
     # received: YYYY/MM/DD
     # accepted: YYYY/MM/DD
-    # published: YYYY/MM/DD
+    published: 2022/01/20
   keywords:
     # - KEYWORD 1
     # - KEYWORD 2
@@ -45,5 +56,5 @@ site:
   template: article-theme
   actions:
     - title: pdf
-      # url: NAME-OF-PDF.pdf
+      url: 2022-heagy-etal-fasttimes-carbon-mineralization.pdf
       static: true
