@@ -41,13 +41,13 @@ project:
     # received: YYYY/MM/DD
     # accepted: YYYY/MM/DD
     published: 2022/01/20
-  keywords:
+  # keywords:
     # - KEYWORD 1
     # - KEYWORD 2
     # - KEYWORD 3
     # - KEYWORD 4
   abbreviations:
-    EM: electromagnetics
+    EM: Electromagnetics
     LOI:  Loss On Ignition
     PGI: Petrophysically and Geologically Guided Inversion
     GMM: Gaussian Mixture Model
